@@ -1,0 +1,21 @@
+{
+  "name": "supabase-auth",
+  "version": "1.0.0",
+  "description": "Basic NodeJS project to work with Supabase. Will do http requests to crud data on supabase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barrven/supabase-auth.git"
+  },
+  "author": "Barrington Venables",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barrven/supabase-auth/issues"
+  },
+  "homepage": "https://github.com/barrven/supabase-auth#readme"
+}
