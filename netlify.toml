@@ -1,4 +1,19 @@
 [[redirects]]
-from = "/test"
-to = "/.netlify/functions/test"
+from = "/"
+to = "/index.html"
+status = 200
+
+[[redirects]]
+from = "/insert"
+to = "/.netlify/functions/insert"
+status = 200
+
+[[redirects]]
+from = "/get"
+to = "/.netlify/functions/get"
+status = 200
+
+[[redirects]]
+from = "/get-date-note"
+to = "/.netlify/functions/get-date-note"
 status = 200

@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/barrven/supabase-auth/issues"
   },
-  "homepage": "https://github.com/barrven/supabase-auth#readme"
+  "homepage": "https://github.com/barrven/supabase-auth#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.2",
+    "dotenv": "^16.3.1"
+  }
 }
