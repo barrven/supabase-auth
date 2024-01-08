@@ -22,7 +22,7 @@
             let a = document.createElement('a')
             let text = document.createTextNode(`${link}`)
             a.appendChild(text)
-            a.href = `http://localhost:8888/${link}`
+            a.href = `http://${host}/${link}`
             p.appendChild(a);
             cont.appendChild(p)
         }
