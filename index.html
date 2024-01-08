@@ -6,6 +6,26 @@
     <title>Document</title>
 </head>
 <body>
-    <p>hello world</p>
+    <h1>supabase auth</h1>
+    <div id="links"></div>
+    <script>
+        let cont = document.getElementById('links')
+        let host = document.location.host
+        let links = [
+            'get-date-note',
+            'get',
+            'insert'
+        ]
+        
+        for(const link of links){
+            let p = document.createElement('p')
+            let a = document.createElement('a')
+            let text = document.createTextNode(`${link}`)
+            a.appendChild(text)
+            a.href = `http://localhost:8888/${link}`
+            p.appendChild(a);
+            cont.appendChild(p)
+        }
+    </script>
 </body>
 </html>
